@@ -13,7 +13,7 @@ public class TrianguloTest {
 
     @BeforeEach
     void init(){
-        triangulo = new Triangulo();
+        triangulo = new Triangulo(0, 0, 0, 0, 0);
     }
 
     @Test
