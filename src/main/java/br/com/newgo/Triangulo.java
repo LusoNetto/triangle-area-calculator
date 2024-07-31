@@ -16,9 +16,15 @@ public class Triangulo {
     }
 
     public double calcularAreaBaseAltura(){
-        
-        return this.base*this.altura/2;
+        double area = this.base*this.altura/2;
+        return area;
 
+    }    
+
+    public double calculateAreaHeron() {
+        double semiPerimetro = (this.ladoA + this.ladoB + this.ladoC)/2;
+        double area = Math.sqrt(semiPerimetro * (semiPerimetro - this.ladoA) * (semiPerimetro - this.ladoB) * (semiPerimetro - this.ladoC));
+        return area;
     }
 
     public double getLadoA() {
