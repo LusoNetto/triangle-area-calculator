@@ -21,6 +21,12 @@ public class Triangulo {
 
     }
 
+    
+
+    public Integer calculateAreaHeron() {
+        return 0;
+    }
+
     public double getLadoA() {
         return ladoA;
     }

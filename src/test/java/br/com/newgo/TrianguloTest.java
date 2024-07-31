@@ -25,15 +25,27 @@ public class TrianguloTest {
     }
 
     @Nested
-    @DisplayName("Testes de Cálculo de Área usando Base e Altura")
+    @DisplayName("When calculate area using base and height")
     class BaseHeightTests {
         @Test
-        @DisplayName("When calc a area using base and height")
+        @DisplayName("When calculate a area using base and height")
         void calculateBaseAndHeight(){            
             triangulo.setBase(5);
             triangulo.setAltura(10);
-            assertEquals(25, triangulo.calcularAreaBaseAltura(), "Escrever um teste para o método de cálculo da área usando base e altura.");
+            assertEquals(25, triangulo.calcularAreaBaseAltura(), "Teste para o método de cálculo da área usando base e altura.");
         }
     }
-    
+    @Nested
+    @DisplayName("When calculate area using heron")
+    class HeronFormulaTests {
+
+        @Test
+        @DisplayName("When calculate a area using base and height")
+        public void testCalculateAreaHeron() {
+            triangulo.setLadoA(3);
+            triangulo.setLadoB(4);
+            triangulo.setLadoC(5);
+            assertEquals(6, triangulo.calculateAreaHeron(),"Teste para o método de cálculo da área usando Heron.");
+        }
+    }
 }
