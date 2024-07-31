@@ -16,7 +16,9 @@ public class Triangulo {
     }
 
     public double calcularAreaBaseAltura(){
+        
         return this.base*this.altura/2;
+
     }
 
     public double getLadoA() {
