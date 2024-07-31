@@ -19,12 +19,11 @@ public class Triangulo {
         
         return this.base*this.altura/2;
 
-    }
+    }    
 
-    
-
-    public Integer calculateAreaHeron() {
-        return 0;
+    public double calculateAreaHeron() {
+        double semiPerimetro = (this.ladoA + this.ladoB + this.ladoC)/2;
+        return Math.sqrt(semiPerimetro * (semiPerimetro - this.ladoA) * (semiPerimetro - this.ladoB) * (semiPerimetro - this.ladoC));
     }
 
     public double getLadoA() {
