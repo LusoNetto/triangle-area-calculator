@@ -41,17 +41,18 @@ Este projeto é uma aplicação Java CLI para calcular a área de triângulos de
 
 # Base e Altura:
 
-## Digite 1 e pressione Enter.
-## Insira a base do triângulo e pressione Enter.
-## Insira a altura do triângulo e pressione Enter.
-## A área será calculada e exibida.
-## Fórmula de Heron:
+- Digite 1 e pressione Enter.
+- Insira a base do triângulo e pressione Enter.
+- Insira a altura do triângulo e pressione Enter.
+- A área será calculada e exibida.
 
-## Digite 2 e pressione Enter.
-## Insira o comprimento do lado A do triângulo e pressione Enter.
-## Insira o comprimento do lado B do triângulo e pressione Enter.
-## Insira o comprimento do lado C do triângulo e pressione Enter.
-## A área será calculada e exibida.
+# Fórmula de Heron:
+
+- Digite 2 e pressione Enter.
+- Insira o comprimento do lado A do triângulo e pressione Enter.
+- Insira o comprimento do lado B do triângulo e pressione Enter.
+- Insira o comprimento do lado C do triângulo e pressione Enter.
+- A área será calculada e exibida.
 
 # MIT License
 
