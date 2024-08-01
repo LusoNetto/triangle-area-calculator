@@ -11,6 +11,6 @@ public class CLI {
     }
 
     public void exibir(String msg){
-
+        System.out.println(msg);
     }
 }
