@@ -9,4 +9,8 @@ public class CLI {
         sc.close();
         return Double.parseDouble(entrada);
     }
+
+    public void exibir(String msg){
+
+    }
 }
